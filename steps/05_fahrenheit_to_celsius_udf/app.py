@@ -14,7 +14,10 @@ from scipy.constants import convert_temperature
 
 def main(temp_f: float) -> float:
     return convert_temperature(float(temp_f), 'F', 'C')
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0332084 (Changes to UDF)
 
 # For local debugging
 # Be aware you may need to type-convert arguments if you add input parameters
